@@ -7,11 +7,28 @@
     <title>Fontes em CSS</title>
     <style>
         body{
-            font-family: Verdana, Geneva, Tahoma, sans-serif
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            /*Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            Por recomendação da W3c utilizar px e em
+            */
+            font-size: 16px;
+            
+            
         }
         /*Ao colocarmos serif, o navegador escolhe uma fonte desse tipo genérico*/
-        h1, h2 {
+        h1 {
             font-family: serif; 
+
+            font-size: 2em;
+        }
+        h2{
+            font-family: serif;
+            font-size: 1.5em;
         }
     </style>
 </head>
