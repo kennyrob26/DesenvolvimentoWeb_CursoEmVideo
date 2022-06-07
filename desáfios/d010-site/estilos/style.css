@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+header{
+    background-image: linear-gradient(180deg, #2cba57, #064e14);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 160px;
+
+}
+body{
+    background-color: #55b070;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.subtitulo{
+    background-image: linear-gradient(90deg, rgba(149, 243, 149, 0.344), white);
+
+}
+p{
+    text-indent: 30px;
+    text-align: justify;
+}
+
+aside{
+    color: white;
+    margin: auto;
+    width: 400px;
+}
+aside > p{
+    text-align: center;
+}    
+nav{
+    padding-left: 20px;
+}
+nav > a{
+    color:white;
+    font-weight: normal;
+    margin: 0px;
+    padding-right: 20px;
+    text-decoration: none;
+    
+}
+nav > a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+main{
+    background-color: white;
+    margin: auto;
+    width: 800px;
+    padding: 5px 20px 20px 20px;
+}
+
+#sabermais{
+    border-radius: 10px;
+    background-color: #ade8bf;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+
+}
+ul > div{
+    display: inline-block;
+    margin-right: 200px;
+}
+
+.lista > li > a{
+    color: black;
+}
+
+.lista > li > a:hover{
+    font-weight: bold;
+}
+
+.lista > li > a:before{
+    content: "✔ ";
+
+}
+
+#aprendermais{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #073918;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    margin-left: -5px;
+}
+
+iframe {
+    width: 750px;
+    margin-left: -20px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-left: 45px;
+    border-right: 45px;
+    border-style: solid;
+    border-color: #073918;
+}
+footer > p{
+    text-align: center;    
+    background-color: #073918;
+    color: white;
+}
