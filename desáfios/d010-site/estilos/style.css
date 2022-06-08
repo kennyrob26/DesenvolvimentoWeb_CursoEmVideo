@@ -1,19 +1,29 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+/*cabeçalho*/
 header{
-    background-image: linear-gradient(180deg, #2cba57, #064e14);
+    background-image: linear-gradient(180deg, #32d663, #01370b);
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
+    margin-left: -8px;
     height: 160px;
+    display: block;
 
+/*body------------------------------------------------------------*/
 }
 body{
     background-color: #55b070;
 }
+
+/*Títulos e subtitulos--------------------------------------------*/
 h1{
+    font-family: 'Pathway Gothic One', sans-serif;
     text-align: center;
     color: white;
     padding-top: 20px;
+    margin-top: -7px;
+    font-weight: bold;
+    text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.335);
 }
 
 .subtitulo{
@@ -31,7 +41,10 @@ aside{
     width: 400px;
 }
 aside > p{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    font-weight: normal;
+
 }    
 nav{
     padding-left: 20px;
@@ -53,16 +66,20 @@ main{
     margin: auto;
     width: 800px;
     padding: 5px 20px 20px 20px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 4px 6px 1px rgb(0 0 0 / 29%);
 }
+
 
 #sabermais{
     border-radius: 10px;
-    background-color: #ade8bf;
+    background-color: #b7f3ca96;
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 5px;
-
+    box-shadow: 2px 2px 4px 1px rgb(0 0 0 / 26%);
 }
+
 ul > div{
     display: inline-block;
     margin-right: 200px;
@@ -85,7 +102,7 @@ ul > div{
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    background-color: #073918;
+    background-color: #17aa48;
     padding: 5px;
     border-radius: 10px 10px 0px 0px;
     margin-left: -5px;
@@ -94,15 +111,37 @@ ul > div{
 iframe {
     width: 750px;
     margin-left: -20px;
-    border-top: 10px;
-    border-bottom: 10px;
+    border-top: 20px;
+    border-bottom: 20px;
     border-left: 45px;
     border-right: 45px;
     border-style: solid;
-    border-color: #073918;
+    border-color: #0a5122;
 }
 footer > p{
     text-align: center;    
     background-color: #073918;
     color: white;
+    margin-bottom: -6px;
+    padding: 4px;
+}
+
+.link{
+    font-weight: bold;
+    color: #1c6a36;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.link::after{
+    content: "🔗";
+}
+
+#bugdroid{
+    margin: auto;
+    display: block;
+}
+strong{
+    color: #1c6a36;
 }
